@@ -1,0 +1,27 @@
+{
+  "name": "whatsapp-audio-transcriber-bot",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp para transcribir audios y generar resumenes usando Baileys + OpenAI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["whatsapp", "bot", "transcripcion", "audio", "openai", "baileys"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.5",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "form-data": "^4.0.1",
+    "pino": "^9.4.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
