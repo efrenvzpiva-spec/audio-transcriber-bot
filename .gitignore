@@ -1,0 +1,48 @@
+# Variables de entorno (NUNCA subir al repo)
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+venv/
+env/
+.venv/
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# WhatsApp Baileys - sesion (contiene credenciales!)
+auth_info_baileys/
+*.json.bak
+
+# Archivos temporales de audio
+*.ogg
+*.mp3
+*.wav
+*.m4a
+tmp/
+temp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
